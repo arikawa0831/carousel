@@ -76,6 +76,11 @@
  dl {
    margin-top: 0;
  }
+ ul{
+   li{
+     list-style: none;
+   }
+ }
  
  ol ol,
  ul ul,
@@ -271,7 +276,6 @@
  legend {
    display: block;
    width: 100%;
-   max-width: 100%;
    padding: 0;
    font-size: 1.5rem;
    line-height: inherit;

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <title>カルーセルの実装</title>
+  <meta charset="utf-8">
+  <meta name="apple-mobile-web-app-capable" content="no">
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./public/css/style.min.css?001">
+</head>
+
+<body>
+  <h1 class="demo-title">カルーセル　デモサイト</h1>
+  <div class="carousel">
+    <ul class="carousel-area">
+      <!-- 意味的に画像はimgタグで配置してるが、CSSで非表示にする。 -->
+      <li class="carousel-list"><img class="carousel-img" src="./public/img/cat01.jpg" alt="ハムスターの画像"></li>
+      <li class="carousel-list"><img class="carousel-img" src="./public/img/cat02.jpg" alt="羊の画像"></li>
+      <li class="carousel-list"><img class="carousel-img" src="./public/img/cat03.jpg" alt="亀の画像"></li>
+      <li class="carousel-list"><img class="carousel-img" src="./public/img/cat04.jpg" alt="鳥の画像"></li>
+      <li class="carousel-list"><img class="carousel-img" src="./public/img/cat05.jpg" alt="ライオンの画像"></li>
+      <li class="carousel-list"><img class="carousel-img" src="./public/img/cat01.jpg" alt="ハムスターの画像"></li>
+      <li class="carousel-list"><img class="carousel-img" src="./public/img/cat02.jpg" alt="羊の画像"></li>
+      <li class="carousel-list"><img class="carousel-img" src="./public/img/cat03.jpg" alt="亀の画像"></li>
+      <li class="carousel-list"><img class="carousel-img" src="./public/img/cat04.jpg" alt="鳥の画像"></li>
+      <li class="carousel-list"><img class="carousel-img" src="./public/img/cat05.jpg" alt="ライオンの画像"></li>
+      <li class="carousel-list"><img class="carousel-img" src="./public/img/cat01.jpg" alt="ハムスターの画像"></li>
+      <li class="carousel-list"><img class="carousel-img" src="./public/img/cat02.jpg" alt="羊の画像"></li>
+      <li class="carousel-list"><img class="carousel-img" src="./public/img/cat03.jpg" alt="亀の画像"></li>
+      <li class="carousel-list"><img class="carousel-img" src="./public/img/cat04.jpg" alt="鳥の画像"></li>
+      <li class="carousel-list"><img class="carousel-img" src="./public/img/cat05.jpg" alt="ライオンの画像"></li>
+    </ul>
+    <div class="arow-wrap">
+      <div class="arrow-left">
+        <button class="arrow-btn js-btn-back" type="button"></button>
+      </div>
+      <div class="arrow-right">
+        <button class="arrow-btn js-btn-next" type="button"></button>
+      </div>
+    </div>
+    <div class="pagination">
+      <span class="pagination-circle target"></span>
+      <span class="pagination-circle"></span>
+      <span class="pagination-circle"></span>
+      <span class="pagination-circle"></span>
+      <span class="pagination-circle"></span>
+      <span class="pagination-circle"></span>
+      <span class="pagination-circle"></span>
+      <span class="pagination-circle"></span>
+      <span class="pagination-circle"></span>
+      <span class="pagination-circle"></span>
+      <span class="pagination-circle"></span>
+      <span class="pagination-circle"></span>
+      <span class="pagination-circle"></span>
+      <span class="pagination-circle"></span>
+      <span class="pagination-circle"></span>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./public/js/main.js"></script>
+</body>
+
+</html>
